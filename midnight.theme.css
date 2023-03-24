@@ -47,6 +47,31 @@
 	--button-secondary-background-active: var(--muted-background-active);
 }
 
+.username-h_Y3Us[style]::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
+    transform: translateY(2px);
+}
+
+.username-h_Y3Us[style]::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: currentColor;
+    border-radius: 20px;
+    margin: 3px;
+    display: inline-block;
+    margin-right: 5px;
+    transform: translateY(2px);
+    position: absolute;
+    inset: 0;
+}
+
 /* fix colors */
 .wrapper-22rqw6 /* emoji selector server list */ {
 	background-color: var(--primary-background);
