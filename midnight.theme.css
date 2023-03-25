@@ -296,7 +296,7 @@
 	/* radius of round corners */
 	
 }
-/*members bar*/
+/*members bar
 :not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t {
     position: absolute;
     right: 0;
@@ -321,4 +321,48 @@
     .ChannelDms-channelmembers-wrap:hover {
     width: 240px;
     transition: width 0.5s 0s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
-    }
+    }*/
+	/*member bar V2*/
+	:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t {
+		position: absolute;
+		right: 0;
+		width: unset;
+		min-width: unset;
+		height: 100%;
+		}
+		:not(.ChannelDms-channelmembers-wrap) .members-3WRCEx {
+		width: 65px;
+		transition: width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+		}
+		.ChannelDms-channelmembers-wrap {
+		width: 65px;
+		position: absolute;
+		right: 0;
+		height: 100%;
+		transition: width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+		}
+		:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t:hover .members-3WRCEx,
+		.ChannelDms-channelmembers-wrap:hover {
+		width: 240px;
+		transition: width 0.5s 0s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+		}
+		.ChannelDms-channelmembers-wrap :is(.membersWrap-3NUR2t, .members-3WRCEx, .privateChannels-oVe7HL),
+		html #MemberCount {
+		width: 100%;
+		}
+		.ChannelDms-channelmembers-wrap .item-3XjbnG {
+		margin: 0;
+		transition: margin 0.5s ease;
+		}
+		.ChannelDms-channelmembers-wrap:hover .item-3XjbnG {
+		margin: 0 8px;
+		transition-delay: 1.25s;
+		}
+		.ChannelDms-channelmembers-wrap .privateChannels-oVe7HL .closeButton-mupH76 {
+		width: 0;
+		margin: 0;
+		padding-right: 0;
+		}
+		.ChannelDms-channelmembers-wrap:hover .privateChannels-oVe7HL .closeButton-mupH76 {
+		animation: floatChannelDmsPrivateChannelsCloseButton 1s 1s forwards;
+		}
