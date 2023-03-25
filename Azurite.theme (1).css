@@ -11,6 +11,7 @@
 */
 
 @import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Azurite/Azurite.theme.css');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 :root {
 	--azurite-bg: #040429;
