@@ -591,7 +591,7 @@ padding-right: 8px;
   color: var(--azurite-bg);
 }
 
-.numberBadge-37OJ3S,
+/*.numberBadge-37OJ3S,
 .mention-3XBnnZ,
 .theme-dark .elevationHigh-28Pty4 {
 	background-color: var(--azurite-sec) !important;
@@ -1406,5 +1406,5 @@ display: none;
 ::selection {
 	background-color: var(--azurite-links);
 	color: var(--azurite-bg);
-}
+}*/
 
