@@ -366,3 +366,15 @@
 		.ChannelDms-channelmembers-wrap:hover .privateChannels-oVe7HL .closeButton-mupH76 {
 		animation: floatChannelDmsPrivateChannelsCloseButton 1s 1s forwards;
 		}
+		.headerText-2z4IhQ > span::before {
+			content: ''; 
+			width: calc(100% + 7px); 
+			height: 100%;
+			border-radius: 5px;
+			background-color: currentColor; 
+			opacity: 0.3; 
+			position: absolute; 
+			margin-top: 0px; 
+			z-index: -1;
+			margin-left: -3px;
+			}
