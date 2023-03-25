@@ -350,6 +350,7 @@
 .ChannelDms-channelmembers-wrap :is(.membersWrap-3NUR2t, .members-3WRCEx, .privateChannels-oVe7HL),
 html #MemberCount {
 	width: 100%;
+	max-width: 1700px;
 }
 .ChannelDms-channelmembers-wrap .item-3XjbnG {
 	margin: 0;
