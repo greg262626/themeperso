@@ -33,7 +33,7 @@ body {
 	font-family: var(--font);
 }
 
-/*.headerTop-3GPUSF {
+.headerTop-3GPUSF {
   background-color: var(--azurite-bg);
 }
 
@@ -256,7 +256,7 @@ body {
 }
 
 
-.newMessagesBar-1hF-9G {
+/*.newMessagesBar-1hF-9G {
   background-color: var(--azurite-sec);
 }
 .barButtonBase-Sk2mdB {
