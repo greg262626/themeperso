@@ -33,7 +33,7 @@ body {
 	font-family: var(--font);
 }
 
-.headerTop-3GPUSF {
+/*.headerTop-3GPUSF {
   background-color: var(--azurite-bg);
 }
 
@@ -253,10 +253,10 @@ body {
 
 .markup-eYLPri blockquote, .markup-eYLPri pre {
   max-width: 100%;
-}
+}*/
 
 
-/*.newMessagesBar-1hF-9G {
+.newMessagesBar-1hF-9G {
   background-color: var(--azurite-sec);
 }
 .barButtonBase-Sk2mdB {
@@ -327,7 +327,7 @@ body {
 }
 
 
-.panels-3wFtMD>.container-YkUktl>.flex-2S1XBF>.button-12Fmur {
+/*.panels-3wFtMD>.container-YkUktl>.flex-2S1XBF>.button-12Fmur {
 	margin: 8px auto 0 auto;
 }
 
